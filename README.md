@@ -1,12 +1,12 @@
 # **Resilience and Efficiency of Indian Urban Bus Networks**
 
-This project analyzes the urban bus networks of four major Indian cities—Ahmedabad, Kolkata, Delhi, and Chennai—by modeling them as complex networks. Using graph theory principles, it assesses their resilience, efficiency, and overall structure, comparing them against each other and global standards.
+This project analyses the urban bus networks of four major Indian cities—Ahmedabad, Kolkata, Delhi, and Chennai—by modelling them as complex networks. Using graph theory principles, it assesses their resilience, efficiency, and overall structure, comparing them against each other and global standards.
 
 ## **Project Overview**
 
-Urban bus networks are critical infrastructure for mobility in India. This study investigates the topological properties of these networks to understand their robustness against disruptions and their efficiency in connecting passengers.
+Urban bus networks are a critical component of India's mobility infrastructure. This study investigates the topological properties of these networks to understand their robustness against disruptions and their efficiency in connecting passengers.
 
-The primary analysis is contained in the final\_notebook.ipynb Jupyter Notebook and visualizations are summarized in the networks poster.pdf.
+The primary analysis is contained in the final\_notebook.ipynb Jupyter Notebook and visualisations are summarised in the networks poster.pdf.
 
 ### **Research Questions**
 
@@ -27,10 +27,10 @@ The primary analysis is contained in the final\_notebook.ipynb Jupyter Notebook 
 
 The analysis is conducted using Python, primarily with the networkx library for graph creation and analysis, pandas for data handling, and matplotlib for visualization.
 
-1. **Graph Modeling:** Each city's bus network is modeled as a graph, where bus stops are **nodes** and routes connecting them are **edges**.  
+1. **Graph Modelling:** Each city's bus network is modelled as a graph, where bus stops are **nodes** and routes connecting them are **edges**.  
 2. **Network Metrics Calculated:**  
    * **Degree Distribution:** To understand the connectivity profile and identify hubs.  
-   * **Average Clustering Coefficient:** To measure how well-connected the neighbors of a stop are.  
+   * **Average Clustering Coefficient:** To measure how well-connected the neighbours of a stop are.  
    * **Average Shortest Path Length:** To assess the average number of transfers required to travel between any two stops.  
    * **Centrality Measures:** (Degree, Betweenness, Closeness) To identify the most critical stops in the network.  
 3. **Resilience Analysis:**  
